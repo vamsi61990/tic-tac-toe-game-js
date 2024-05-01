@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Itim',cursive;
+}
+
+.containerBox{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.background{
+    background-color: black;
+    height: 100vh;
+    padding-top: 1px;
+}
+
+.title{
+    color: wheat;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 1%;
+}
+
+.box{
+    border: 1px solid white;
+    color: brown;
+    min-height: 100px;
+    min-width: 100px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+    display: flex;
+}
+
+.winner{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: yellowgreen;
+}
+.playerO{
+    color: blueviolet;
+}
+.playerX{
+    color: cornflowerblue;
+}
+.reset{
+    color: black;
+    font-size: larger;
+    min-width: 100px;
+    height: 40px;
+    background-color: lightcyan;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+/*     
+    justify-content: center;
+    align-items: center; */
+}
